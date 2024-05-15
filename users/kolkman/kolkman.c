@@ -18,8 +18,9 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-
+#ifdef RGBLIGHT_ENABLE
 #include "rgblight.h"
+#endif
 #include QMK_KEYBOARD_H
 #include "kolkman.h"
 void keyboard_post_init_rgb(void) {

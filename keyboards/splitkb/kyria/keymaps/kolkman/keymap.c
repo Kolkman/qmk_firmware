@@ -19,7 +19,9 @@
 #include "keycodes.h"
 #include "kolkman.h"
 #include "quantum_keycodes.h"
+#ifdef RGBLIGHT_ENABLE
 #include "rgblight.h"
+#endif
 #include <stdbool.h>
 #include QMK_KEYBOARD_H
 

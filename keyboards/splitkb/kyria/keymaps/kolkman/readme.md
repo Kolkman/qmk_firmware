@@ -12,6 +12,7 @@
 *   RGB lightlayers, see the [feature_rgblight.md](https://github.com/qmk/qmk_firmware/blob/master/docs/feature_rgblight.md) with command option shift and control providing light effects.
 *   Configurable removal of DVORAK and COLEMAK layers (Reenable by defining ENABLE_DVORAK or ENABLE_COLEMAK)
 *   A custom XOLX logo 
+*   RGB Matrix used for fancy backlight effects.
 
 ### Layer layout     
 ![Alt text](./kyria.png)
